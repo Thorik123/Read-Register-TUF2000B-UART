@@ -19,7 +19,7 @@ result = sensor.readHoldingRegisters(0x0001, 2);
 
 - Library yang digunakan adalah `ModbusMaster` yang bisa anda unduh [disini](https://github.com/4-20ma/ModbusMaster)
 
-- Untuk komunikasi serialnya saya menggunakan library `SofwareSerial`. Sesuaikan pin yang digunakan
+- Untuk komunikasi serialnya saya menggunakan library `SoftwareSerial`. Sesuaikan pin yang digunakan
 
 ```cpp
 #define RX_PIN 14 // D6
