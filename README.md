@@ -17,6 +17,15 @@ result = sensor.readHoldingRegisters(0x0001, 2);
 
 - Ubah angka `0x0001` sesuai dengan register data yang ingin didapat/dibaca dengan format `hex`
 
-- Anda dapat membaca data register MODBUS RTU TUF2000B melalui link berikut https://blog.veto.cl/com_virtuemart/files/manuales/otros_documentos/N0646058_modbus_formato_datos.pdf
+- Library yang digunakan adalah `ModbusMaster` yang bisa anda unduh [disini](https://github.com/4-20ma/ModbusMaster)
+
+- Untuk komunikasi serialnya saya menggunakan library `SofwareSerial`. Sesuaikan pin yang digunakan
+
+```cpp
+#define RX_PIN 14 // D6
+#define TX_PIN 12 // D5
+```
+
+- Anda dapat membaca data register MODBUS RTU TUF2000B [disini](https://blog.veto.cl/com_virtuemart/files/manuales/otros_documentos/N0646058_modbus_formato_datos.pdf)
 
 ---
