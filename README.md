@@ -29,3 +29,5 @@ result = sensor.readHoldingRegisters(0x0001, 2);
 - Anda dapat membaca data register MODBUS RTU TUF2000B [disini](https://blog.veto.cl/com_virtuemart/files/manuales/otros_documentos/N0646058_modbus_formato_datos.pdf)
 
 ---
+
+[Suka minum kopi?](https://www.buymeacoffee.com/thoriktk)
